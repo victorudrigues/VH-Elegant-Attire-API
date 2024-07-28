@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Features\ProductCrud\ViewModel\" />
+    <Folder Include="Features\ProductCrud\Service\" />
+    <Folder Include="Features\ProductCrud\Query\" />
+    <Folder Include="Features\ProductList\Query\" />
+    <Folder Include="Features\ProductList\ViewModel\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.7" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\VHElegantAttire.Domain\VHElegantAttire.Domain.csproj" />
+  </ItemGroup>
+
+</Project>
